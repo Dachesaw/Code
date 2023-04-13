@@ -1,7 +1,7 @@
 import requests
 from pprint import pprint
 import datetime
-open_weather_token = 'd703fb62c5203ee4e6ec7a2c1d11c90f'
+open_weather_token = 'token'
 
 def get_weather(city, open_weather_token):
     try:
