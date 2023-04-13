@@ -1,8 +1,8 @@
 import openai
 import telebot
 
-bot = telebot.TeleBot('5543889798:AAHx-yuvJMTjvRG5DPS-k6_zr6BaOB9UEk4')
-openai.api_key = ('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')
+bot = telebot.TeleBot('token')
+openai.api_key = ('token')
 
 @bot.message_handler(func=lambda _: True)
 def handle_message(message):
